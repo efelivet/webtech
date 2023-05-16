@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100%;  
+   
+  background-image:linear-gradient(to right,rgb(230, 230, 250),rgb(252, 252, 212));
+ 
+}
+
+.dropbtn {
+  background-color:black ;
+  color: white;
+ 
+  padding:30px 20px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255,0,0,0);
+  min-width: 150px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height: 100px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+  nav{
+    display:flex;
+    font-size: 20px;
+   }
+  
+   ul li{
+    padding: 5px;
+    list-style-type: none;
+   }
+   nav ul li a{
+    color: white;
+    text-decoration: none;
+   }
+   h3{
+    font-family:Arial, Helvetica, sans-serif;
+   padding:20px; margin-top: 10px;
+   box-shadow: 0 6px 20px 0 rgba(119,7,7,0.19);
+   }
+  #image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  #text{
+    margin-left:200px ;
+   margin-top: 80px;
+  }
+  #div{
+    padding:20px; margin-top: 46px;
+   box-shadow: 0 6px 20px 0 rgba(119,7,7,0.19);
+   margin-left: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   flex:30%; 
+   justify-content: center;
+   align-items: center;
+  }
+  #rare{
+    height:250px;
+    width:250px;
+   background-repeat: no-repeat;
+    background-color:lavender;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-size:auto;
+
+   }
+   @media screen and (max-height: 450px) {
+    #rare {display:flex}
+  }
+
+#demo{
+  display:flex;
+justify-content: center;
+align-items: center;
+}
+   img{
+    
+    height:250px;
+    width:250px;  
+    margin-left: 30px;
+    margin-top: 20px;
+    
+   }
+   
+#color{
+  background-color:rgb(81, 244, 244);
+  height:70px;
+}
+.row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+.row a{
+  padding:10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#foot{
+  background-color:teal;
+  height:90px;
+}
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
