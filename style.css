@@ -85,25 +85,16 @@ body{
     padding: 30px;
   }
   #text{
-    margin-left:150px ;
+    margin-left:100px ;
    margin-top: 80px;
   }
-  #div{
-    padding:20px; margin-top: 46px;
-   box-shadow: 0 6px 20px 0 rgba(119,7,7,0.19);
-   margin-left: 5px;
-   display: flex;
-   flex-wrap: wrap;
-   flex:30%; 
-   justify-content: center;
-   align-items: center;
-  }
+ #div
   #rare{
     height:250px;
    background-repeat: no-repeat;
     background-color:lavender;
     border-radius: 100%;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 20px;
     background-size:auto;
 
